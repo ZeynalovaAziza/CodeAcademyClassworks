@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        section {
+            height: 500px;
+        }
+        table,td {
+            border: 1px solid;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        th {
+            background-color: grey;
+        }
+        header, section, nav, footer {
+            border: 1px solid pink;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h3>This is a Navigation</h3>
+      <nav>
+        <ul>
+            <li><a href="#section1">Section1</a></li>
+            <li><a href="#formSection1">Form Section1</a></li>
+            <li><a href="#formSection2">Form Section2</a></li>
+            <li><a href="#footer">Footer</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="section1">
+      <h3>Section1</h3>
+      <article>
+          <h3>Web Browsers</h3> 
+          Google Chrome,Firefox,and Internet Explorer are the most used browsers today.
+          <h3>Google Chrome</h3>
+          Google Chrom in 2008
+      </article>
+
+    </section>
+    <section id="formSection1">
+        <h3>Form Section 1</h3>
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" name="" id="name"> <br> <br>
+            <label for="">Gender:</label>
+            <input type="radio" name="" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="" id="female">
+            <label for="female">Female</label> <br> <br>
+            <label for="pets">Pets:</label>
+            <select name="city" id="city">
+                <option value="City">City</option>
+            </select>
+            <input type="submit" name="" id="">
+        </form>
+    </section>
+    <section id="formSection2">
+        <h3>Form Section 2</h3>
+        <table> 
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email Adress</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Hillary</td>
+                    <td>Nyakundi</td>
+                    <td>tables@mail.com</td>
+                </tr>
+                <tr>
+                    <td>Lary</td>
+                    <td>Mak</td>
+                    <td>developer@mail.com</td>
+                </tr>
+            </tbody>
+        </table> <br>
+        <table> 
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Subject</th>
+                    <th>Marks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Hillary</td>
+                    <td>Advanced Web</td>
+                    <td>75</td>
+                </tr>
+                <tr>
+                    <td>Operating System</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Lary</td>
+                    <td>Advanced Web</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td>Lorem, ipsum.</td>
+                    <td>75</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total Average:72.5</td>
+                </tr>
+            </tfoot>
+        </table>
+
+    </section>
+    <section id="footer">
+        <h3>Footer</h3>
+        Copyright all rights reserved
+
+    </section>
+  </body>
+</html>
