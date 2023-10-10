@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+section {
+    height: 75%;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'AR One Sans', sans-serif;
+    
+}
+.title {
+    color: rgb(57, 124, 57);
+    display: flex;
+    align-items: center;
+}
+.fa-solid {
+    font-size: .8rem;
+    margin-right: 5px;
+}
+footer {
+    color: #ffffff;
+    background-color: #202122;
+    height: 25%;
+}
+.form {
+    width: 100%;
+}
