@@ -20,10 +20,7 @@ header {
   align-items: center;
   height: 10vh;
 }
-ul {
-  display: flex;
-  column-gap: 20px;
-}
+
 .button button {
   border: none;
   color: white;
@@ -58,6 +55,27 @@ nav ul a {
 .team {
     text-align: center;
 }
+.foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer {
+  background: #072125;
+  width: 100%;
+  color: white;
+}
+.foot {
+  padding: 40px;
+}
+.company a{
+  color: white;
+}
+.social-icons i {
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
 @media screen and (max-width: 767px) {
   .fa-bars {
     display: block;
