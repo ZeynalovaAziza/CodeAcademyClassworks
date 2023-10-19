@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600;700&family=Martian+Mono:wght@200;300;400;500;600;700;800&family=Monoton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:wght@100;200&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header.head {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.about-us a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.about-us ul {
+  list-style: none;
+}
+.about-us ul {
+  display: flex;
+  column-gap: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* width: 90%; */
+}
+
+section.furniture {
+  background-image: url(./image\ 3.svg);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.furniture h1,
+p {
+  color: white;
+}
+.text {
+  max-width: 600px;
+  font-family: "Poppins", sans-serif;
+}
+.text h1 {
+  font-size: 48px;
+}
+.furniture .search input {
+  border: none;
+  border-radius: 30px;
+  padding: 15px 20px;
+  width: 100%;
+  outline: none;
+}
+.search {
+  max-width: 280px;
+  position: relative;
+  opacity: 0.6;
+}
+::placeholder {
+    color: rgb(7, 1, 1);
+}
+.fa-solid.fa-magnifying-glass {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  background-color: #cacaca7a;
+  padding: 10px;
+  border-radius: 50%;
+}
