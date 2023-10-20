@@ -14,7 +14,12 @@ header.head {
   width: 100%;
   position: fixed;
   top: 0;
+  padding: 20px;
 }
+.icon .menu {
+  display: none;
+}
+
 .about-us a {
   text-decoration: none;
   list-style: none;
@@ -31,7 +36,7 @@ header.head {
 .header {
   display: flex;
   justify-content: space-between;
-  /* width: 90%; */
+ 
 }
 
 section.furniture {
@@ -54,7 +59,7 @@ p {
   font-size: 48px;
 }
 .furniture .search input {
-  border: none;
+  border: 2px solid white;
   border-radius: 30px;
   padding: 15px 20px;
   width: 100%;
@@ -64,6 +69,7 @@ p {
   max-width: 280px;
   position: relative;
   opacity: 0.6;
+ 
 }
 ::placeholder {
     color: rgb(7, 1, 1);
@@ -75,4 +81,13 @@ p {
   background-color: #cacaca7a;
   padding: 10px;
   border-radius: 50%;
+  
+}
+@media screen and (max-width:767px){
+  .icon .menu{
+    display: inline-block;
+  }
+  .about-us a{
+    display: none;
+  }
 }
