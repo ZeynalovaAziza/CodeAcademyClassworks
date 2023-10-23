@@ -1,0 +1,19 @@
+header {
+    background-color: $primary-color;
+    .header{
+        @include flex(space-between);
+        
+        nav{
+            ul{
+                display: flex;
+                gap: 20px;
+            }
+            a{
+                color: white
+            }
+        }
+    }
+    .btn {
+        @extend %schedule;
+    }
+}
