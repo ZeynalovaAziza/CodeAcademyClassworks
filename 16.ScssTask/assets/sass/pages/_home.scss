@@ -1,0 +1,5 @@
+.home-top{
+    @include flex(space-between, start);
+    flex-direction: column;
+    gap: 20px;
+}

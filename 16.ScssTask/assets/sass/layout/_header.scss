@@ -1,0 +1,13 @@
+.header{
+    @include flex(space-between);
+    nav {
+        ul{
+            display: flex;
+            gap: 20px;
+        }
+        a{
+            color: $color-gray;
+        }
+    }
+    padding: 20px;
+}
