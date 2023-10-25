@@ -1,0 +1,46 @@
+#image {
+  background-color: rgba(255, 228, 196, 0.897);
+  .show-all {
+    padding: 50px;
+    nav {
+      ul {
+        @include flex;
+        gap: 30px;
+        a {
+          color: $text-color;
+        }
+      }
+    }
+  }
+  .boxes {
+    @include flex (space-between);
+    flex-wrap: wrap;
+    gap: 20px;
+    .box {
+      position: relative;
+      width: 30%;
+      img {
+        width: 100%;
+      }
+
+      h3 {
+        font-size: 40px;
+        color: $color-white;
+        font-weight: 800;
+      }
+      .image-info {
+        position: absolute;
+        left: 20%;
+        bottom: 50px;
+        @include flex(flex-start, flex-start);
+        flex-direction: column;
+        // gap: 0px;
+        button {
+        }
+      }
+    }
+    button {
+      @extend %button;
+    }
+  }
+}

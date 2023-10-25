@@ -1,0 +1,163 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#bg-color header .header .contact button {
+  padding: 7px;
+  border-radius: 3px;
+}
+
+#image .boxes button {
+  border-radius: 20px;
+  padding: 5px;
+  background-color: white;
+  color: #391400;
+  border: none;
+}
+
+#bg-color {
+  background-color: rgba(25, 25, 51, 0.822);
+}
+#bg-color header {
+  padding: 10px;
+}
+#bg-color header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#bg-color header .header .about nav ul {
+  display: flex;
+  gap: 50px;
+}
+#bg-color header .header .about nav ul a {
+  color: white;
+}
+#bg-color header .header .contact button {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+#bg-color #portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bg-color #portfolio .portfolio {
+  max-width: 500px;
+  text-align: center;
+}
+#bg-color #portfolio .portfolio h1 {
+  font-size: 72px;
+  font-weight: 800;
+  color: white;
+}
+#bg-color #portfolio .portfolio p {
+  font-size: 16px;
+  color: white;
+  opacity: 64%;
+  line-height: 32px;
+}
+
+#image {
+  background-color: rgba(255, 228, 196, 0.897);
+}
+#image .show-all {
+  padding: 50px;
+}
+#image .show-all nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#image .show-all nav ul a {
+  color: #391400;
+}
+#image .boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#image .boxes .box {
+  position: relative;
+  width: 30%;
+}
+#image .boxes .box img {
+  width: 100%;
+}
+#image .boxes .box h3 {
+  font-size: 40px;
+  color: white;
+  font-weight: 800;
+}
+#image .boxes .box .image-info {
+  position: absolute;
+  left: 20%;
+  bottom: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}/*# sourceMappingURL=main.css.map */
